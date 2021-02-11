@@ -9,64 +9,121 @@
 }
 
 nav {
-    padding: 5%;
+    padding:3%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 nav a {
-    padding: 1% 2%;
-    margin: 0 10% 0 7%;
-    width: 15.5%;
-    display: inline-block;
-    text-align: center;
-    font-size: 1.3rem;
-    border-radius: 15%;
+    padding: 1%;
 }
 
 .button1 {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.6rem;
     background: #FF764E;
     text-decoration: none;
     color: white;
+    text-align: center;
+    border-radius: 15%;
+    margin: 0 11.3% 0 0;
 }
 
 .button2 {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.6rem;
     background: #5ED3EB;
     text-decoration: none;
     color: white;
+    text-align: center;
+    border-radius: 15%;
+    margin: 0 11.3% 0 0;
 }
 
 .button3 {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.6rem;
     background: #FFCD69;
     text-decoration: none;
     color: white;
+    text-align: center;
+    border-radius: 15%;
 }
 
-.firsthalf-s1 {
+.section1 div {
     display: inline-block;
-    width: 39%;
 }
 
-div.firsthalf-s1 img {
+.section1 div img {
+    width: 80%;
     border-radius: 50%;
-    width: 40%;
-    margin: 0 30% 0;
+    margin: 5% 0 -15% 38%;
 }
 
-.secondhalf-s1 {
-    display: inline-block;
-    width: 59%;
+div.left-half {
+    width: 30%;
+}
+
+div.right-half {
+    width: 69%;
 }
 
 h1 {
     font-family: 'Chelsea Market';
+    font-size: 4.3rem;
+    margin: 0 0 13% 11%;
 }
 
-.main-text {
+div #text {
+    display: inline-block;
+    font-size: 1.5rem;   
+    margin: -10% 10% 6% 4%; 
+    padding: 0% 0% 0% 13%;
+}
+
+.s1-p {
+    text-align: center;
+    padding: 0 25% 0 10%;
+}
+
+section.section2 div.main-text {
     color: white;
+    font-size: 1.5rem;
+    text-align: center;
     background: #DDB9A3;
+    margin: 2% 3% 3% 3%;
+    padding: 1% 2% 1% 2%;
+}
+
+section.section3 {
+    width: 25%;
+}
+
+section.section3 img {
+    width: 25%;
+    margin: 0% 0% 0% 179%;
+}
+
+div.top-half p {
+    margin: 10% -136% 10% 146%;
+    text-align: center;
+}
+
+div.bottom-half p{
+    margin: 10% -138% 10% 145%;
+    text-align: center;
 }
 
 span.bold-text {
     font-weight: bold;
+}
+
+section.blank-section {
+    height: 350px;
+    background-image: url(/assets/footer_img.jpg);
 }
 
 footer {
